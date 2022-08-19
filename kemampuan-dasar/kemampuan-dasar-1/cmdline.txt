@@ -1,0 +1,404 @@
+C:\Users\User>cd ..
+
+C:\Users>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 8257-7864
+
+ Directory of C:\Users
+
+21/06/2022  19:09    <DIR>          .
+21/06/2022  19:09    <DIR>          ..
+22/06/2022  09:58    <DIR>          Public
+18/08/2022  12:49    <DIR>          User
+               0 File(s)              0 bytes
+               4 Dir(s)  60.476.547.072 bytes free
+
+C:\Users>systeminfo
+
+Host Name:                 DESKTOP-Q76JUTQ
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19044 N/A Build 19044
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          User
+Registered Organization:
+Product ID:                00331-10000-00001-AA050
+Original Install Date:     21/06/2022, 19:39:41
+System Boot Time:          21/06/2022, 19:28:06
+System Manufacturer:       LENOVO
+System Model:              80M2
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 76 Stepping 3 GenuineIntel ~1440 Mhz
+BIOS Version:              LENOVO C9CN35WW, 15/09/2015
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+Total Physical Memory:     4.008 MB
+Available Physical Memory: 1.041 MB
+Virtual Memory: Max Size:  6.014 MB
+Virtual Memory: Available: 1.571 MB
+Virtual Memory: In Use:    4.443 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-Q76JUTQ
+Hotfix(s):                 5 Hotfix(s) Installed.
+                           [01]: KB5003791
+                           [02]: KB5007401
+                           [03]: KB5012170
+                           [04]: KB5013942
+                           [05]: KB5014032
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Realtek PCIe GbE Family Controller
+                                 Connection Name: Ethernet 2
+                                 Status:          Media disconnected
+                           [02]: Realtek 8821AE Wireless LAN 802.11ac PCI-E NIC
+                                 Connection Name: Wi-Fi 2
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     172.16.3.254
+                                 IP address(es)
+                                 [01]: 172.16.3.135
+                                 [02]: fe80::c9c2:dd16:9131:e42f
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: No
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+
+C:\Users>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi 2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::c9c2:dd16:9131:e42f%7
+   IPv4 Address. . . . . . . . . . . : 172.16.3.135
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 172.16.3.254
+C:\Users>cls
+C:\Users>getmac
+
+Physical Address    Transport Name
+=================== ==========================================================
+50-7B-9D-7A-4F-13   Media disconnected
+48-E2-44-B5-DD-DF   \Device\Tcpip_{6D28864E-BC40-463C-A4FD-99E2D93AEF73}
+
+C:\Users>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+C:\Users\User>attrib
+A                    C:\Users\User\.bash_history
+A                    C:\Users\User\.gitconfig
+A                    C:\Users\User\ezpcopensdkconfig_9ffc4da769078eeb963f0897d728be4e.xml
+A   H   I            C:\Users\User\NTUSER.DAT
+A  SH                C:\Users\User\ntuser.dat.LOG1
+A  SH                C:\Users\User\ntuser.dat.LOG2
+A  SH                C:\Users\User\NTUSER.DAT{7db5f3db-f159-11ec-9519-bc8dc559551c}.TM.blf
+A  SH                C:\Users\User\NTUSER.DAT{7db5f3db-f159-11ec-9519-bc8dc559551c}.TMContainer00000000000000000001.regtrans-ms
+A  SH                C:\Users\User\NTUSER.DAT{7db5f3db-f159-11ec-9519-bc8dc559551c}.TMContainer00000000000000000002.regtrans-ms
+   SH                C:\Users\User\ntuser.ini
+
+C:\Users\User>ping 8.8.8.8
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=72ms TTL=115
+Reply from 8.8.8.8: bytes=32 time=1311ms TTL=115
+Reply from 8.8.8.8: bytes=32 time=1259ms TTL=115
+Reply from 8.8.8.8: bytes=32 time=432ms TTL=115
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 72ms, Maximum = 1311ms, Average = 768ms
+
+C:\Users\User>
+C:\Users\User>query
+Invalid parameter(s)
+QUERY { PROCESS | SESSION | TERMSERVER | USER }
+C:\Users\User>help color
+Sets the default console foreground and background colors.
+
+COLOR [attr]
+
+  attr        Specifies color attribute of console output
+
+Color attributes are specified by TWO hex digits -- the first
+corresponds to the background; the second the foreground.  Each digit
+can be any of the following values:
+
+    0 = Black       8 = Gray
+    1 = Blue        9 = Light Blue
+    2 = Green       A = Light Green
+    3 = Aqua        B = Light Aqua
+    4 = Red         C = Light Red
+    5 = Purple      D = Light Purple
+    6 = Yellow      E = Light Yellow
+    7 = White       F = Bright White
+
+If no argument is given, this command restores the color to what it was
+when CMD.EXE started.  This value either comes from the current console
+window, the /T command line switch or from the DefaultColor registry
+value.
+
+The COLOR command sets ERRORLEVEL to 1 if an attempt is made to execute
+the COLOR command with a foreground and background color that are the
+same.
+
+Example: "COLOR fc" produces light red on bright white
+
+C:\Users\User>netsh wlan show profile
+
+Profiles on interface Wi-Fi 2:
+
+Group policy profiles (read only)
+---------------------------------
+    <None>
+
+User profiles
+-------------
+    All User Profile     : Galaxy
+    All User Profile     : Pondok Qoriyatus Salam
+    All User Profile     : Redmi Note 9
+    All User Profile     : AQAAABTSt1IAPwEwRedmi 4X
+    All User Profile     : JAVANICA CAFE
+    All User Profile     : D
+    All User Profile     : #Network1
+    All User Profile     : #LT 2
+    All User Profile     : #B Atas
+    All User Profile     : #IN_Santri 5G
+    All User Profile     : BLACK COFFE AREA
+    All User Profile     : NDALEM
+    All User Profile     : www.pptialfalahsalatiga.com
+    All User Profile     : vivo 1812
+    All User Profile     : Redmi
+    All User Profile     : Alfian Pet Shop
+    All User Profile     : BLKK Al Falah Salatiga
+    All User Profile     : PONDOK AL FALAH
+    All User Profile     : AndroidAP2565
+    All User Profile     : OPPO A1k
+    All User Profile     : AndroidAP4873
+    All User Profile     : BAGOPS
+    All User Profile     : byljoss
+
+C:\Users\User>powercfg /batteryreport
+Battery life report saved to file path C:\Users\User\battery-report.html.
+C:\Users\User>pause
+Press any key to continue . . .
+
+C:\Users\User>C:\Users\User>nslookup ls
+DNS request timed out.
+    timeout was 2 seconds.
+Server:  UnKnown
+Address:  172.16.3.254
+
+DNS request timed out.
+    timeout was 2 seconds.
+DNS request timed out.
+    timeout was 2 seconds.
+*** Request to UnKnown timed-out
+
+C:\Users\User>
+C:\Users\User>msg
+Send a message to a user.
+
+MSG {username | sessionname | sessionid | @filename | *}
+    [/SERVER:servername] [/TIME:seconds] [/V] [/W] [message]
+
+  username            Identifies the specified username.
+  sessionname         The name of the session.
+  sessionid           The ID of the session.
+  @filename           Identifies a file containing a list of usernames,
+                      sessionnames, and sessionids to send the message to.
+  *                   Send message to all sessions on specified server.
+  /SERVER:servername  server to contact (default is current).
+  /TIME:seconds       Time delay to wait for receiver to acknowledge msg.
+  /V                  Display information about actions being performed.
+  /W                  Wait for response from user, useful with /V.
+  message             Message to send.  If none specified, prompts for it
+                      or reads from stdin.
+C:\Users\User>mkdir dire
+
+C:\Users\User>
+C:\Users\User>rmdir dire
+
+C:\Users\User>
+C:\Users\User>ren contoh folder
+
+C:\Users\User>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 8257-7864
+
+ Directory of C:\Users\User
+
+19/08/2022  09:43    <DIR>          .
+19/08/2022  09:43    <DIR>          ..
+18/08/2022  22:55             1.206 .bash_history
+18/08/2022  10:18                56 .gitconfig
+21/06/2022  19:41    <DIR>          3D Objects
+19/08/2022  09:34           100.802 battery-report.html
+21/06/2022  19:41    <DIR>          Contacts
+21/06/2022  19:41    <DIR>          Desktop
+21/06/2022  19:41    <DIR>          Documents
+18/08/2022  08:34    <DIR>          Downloads
+04/06/2020  11:54               574 ezpcopensdkconfig_9ffc4da769078eeb963f0897d728be4e.xml
+21/06/2022  19:41    <DIR>          Favorites
+19/08/2022  09:43    <DIR>          folder
+21/06/2022  19:41    <DIR>          Links
+21/06/2022  19:41    <DIR>          Music
+29/05/2021  03:12    <DIR>          OneDrive
+18/08/2022  12:50    <DIR>          Pictures
+21/06/2022  19:41    <DIR>          Saved Games
+21/06/2022  19:41    <DIR>          Searches
+21/06/2022  19:41    <DIR>          Videos
+               4 File(s)        102.638 bytes
+              16 Dir(s)  60.481.761.280 bytes free
+
+C:\Users\User>rmdir folder
+
+C:\Users\User>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 8257-7864
+
+ Directory of C:\Users\User
+
+19/08/2022  09:43    <DIR>          .
+19/08/2022  09:43    <DIR>          ..
+18/08/2022  22:55             1.206 .bash_history
+18/08/2022  10:18                56 .gitconfig
+21/06/2022  19:41    <DIR>          3D Objects
+19/08/2022  09:34           100.802 battery-report.html
+21/06/2022  19:41    <DIR>          Contacts
+21/06/2022  19:41    <DIR>          Desktop
+21/06/2022  19:41    <DIR>          Documents
+18/08/2022  08:34    <DIR>          Downloads
+04/06/2020  11:54               574 ezpcopensdkconfig_9ffc4da769078eeb963f0897d728be4e.xml
+21/06/2022  19:41    <DIR>          Favorites
+21/06/2022  19:41    <DIR>          Links
+21/06/2022  19:41    <DIR>          Music
+29/05/2021  03:12    <DIR>          OneDrive
+18/08/2022  12:50    <DIR>          Pictures
+21/06/2022  19:41    <DIR>          Saved Games
+21/06/2022  19:41    <DIR>          Searches
+21/06/2022  19:41    <DIR>          Videos
+               4 File(s)        102.638 bytes
+              15 Dir(s)  59.362.914.304 bytes free
+
+C:\Users\User>cd Desktop
+
+C:\Users\User\Desktop>
