@@ -19,12 +19,12 @@ parrot(110, voltage=220)     # duplicate value for the same argument
 parrot(actor='John Cleese')  # unknown keyword argument
 
 
->>> def function(a):
-...     pass
-...
->>> function(0, a=0)
+def function(a):
+    pass
+
+function(0, a=0)
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
+File "<stdin>", line 1, in <module>
 TypeError: function() got multiple values for argument 'a'
 
 

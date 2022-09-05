@@ -1,3 +1,4 @@
+from telnetlib import KERMIT
 import fibo
 
 fibo.fib(200) 
