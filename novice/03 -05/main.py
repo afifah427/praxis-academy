@@ -1,4 +1,4 @@
-
+from crypt import methods
 from flask import Flask, render_template, request, redirect
 import psycopg2
 app = Flask(__name__)
